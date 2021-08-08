@@ -43,5 +43,5 @@ cleaned_players_info<-lapply(1:length(players_profile), players_info_cleaned)
 players_final_data<-data.table::rbindlist(cleaned_players_info,fill = TRUE)
 
 #write the dataframe in csv
-write.csv(players_final_data,"C:/Users/SurafelTilahun/Luma Analytics/Lumineers - Documents/5 Users/Surafel/Web Scraping/profile_data/players_info.csv")
+write.csv(players_final_data,"C:/Users/SurafelTilahun/players_info.csv")
 
